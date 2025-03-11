@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="src/output.css">
 
 </head>
-<body class="relative overflow-x-hidden">
+<body>
     <div class="text-[15px] hidden md:block bg-[#f6f7fa]">
         <div class="max-w-[1000px] m-auto px-3">
             <div class="container px-5  p-2 flex justify-between mx-auto">
@@ -101,7 +101,7 @@
     </header>
     <main>
         <div id="openClose"
-            class="absolute  transition-all duration-300 ease-in-out  top-0 overflow-y-scroll h-screen max-w-[400px] z-10 right-[-100%] bg-white w-[100%] p-2">
+            class="fixed  transition-all duration-300 ease-in-out  top-0 overflow-y-scroll h-screen max-w-[400px] z-10 right-[-100%] bg-white w-[100%] p-2">
             <div class="flex justify-between align-items m-2">
                 <span onclick="likeOpen()" class="text-[25px] cursor-pointer">🗙</span>
                 <button onclick="deleteAll()" class="btn bg-gray-800  hover:text-red-700 text-white px-2 py-1 rounded text-[15px] justify-end">Delete All</button>
